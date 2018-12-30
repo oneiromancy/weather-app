@@ -1,0 +1,33 @@
+.Container-ForecastSelection{
+    margin: 0 auto;
+}
+
+.Container-ForecastSelection__List{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+
+    @media only screen and (min-width: 580px) {
+        margin: 6rem auto;
+        width: 25rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.Container-ForecastSelection__ListItem{
+    grid-column: span 1;
+    margin: 0;
+    padding: 0;
+}
+
+.Container-ForecastSelection__SearchButton{
+    background: url('../../../images/icons/buttons/add.png') no-repeat;
+    background-size: 100%;
+    width: 4rem;
+    height: 4rem;
+    border-style: none;
+    cursor: pointer;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}

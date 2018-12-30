@@ -1,0 +1,22 @@
+.Container-DetailedForecast {
+    max-width: 700px; 
+}
+
+.DetailedForecast__Heading{
+    line-height: 1em;
+    font-size: 3.75rem;
+    margin: 1rem;
+    margin-right: 6rem;
+}
+
+.DetailedForecast__MenuButton{
+    background: url('../../images/icons/buttons/menu.png') no-repeat;
+    width: 4rem;
+    height: 4rem;
+    border-style: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

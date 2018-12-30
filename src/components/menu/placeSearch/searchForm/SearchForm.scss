@@ -1,0 +1,79 @@
+.Container-SearchForm{
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+.Container-SearchForm--ContentToScreenAdjustment{
+
+    width: 95%;
+    margin: 0.75rem auto;
+
+    @media only screen and (min-width: 490px) {
+        width: 85%;
+    }
+
+    @media only screen and (min-width: 740px) {
+        width: 60%;
+    }
+    
+}
+
+.SearchForm__CityLabel{
+    font-size: 1.25rem;   
+
+    margin-left: 1rem; 
+}
+
+.Container-SearchForm__InputGroup{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+.SearchForm__CityInput{
+    padding-left: 2rem;
+
+    width: 100%;
+
+    font-size: 2rem;
+    color: white;
+
+    border-style: none;
+    border-radius: 0.5rem;
+    background-color: rgba(79, 91, 102, 0.5);
+    
+    &::-webkit-input-placeholder{
+        color: white;
+    }
+    
+    &:-ms-input-placeholder{
+        color: white;
+    }
+    
+    &::placeholder{
+        color: white;
+    }
+
+    &:focus{
+        outline: none;
+    }
+
+}
+
+.SearchForm__CancelButton{
+    cursor: pointer;
+
+    color: white;
+    font-size: 1.15rem;
+    font-weight: bold;
+    background-color: rgba(202, 202, 202, 0.01);
+
+    border-style: none;
+
+    position: relative; 
+    left: 0.5rem;
+}

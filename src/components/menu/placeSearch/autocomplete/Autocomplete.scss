@@ -1,0 +1,21 @@
+.Container-AutocompleteSuggestions__List{
+    position: relative;
+    right: 0.5rem;
+    width: 80%;
+    margin: 1rem auto;
+
+    @media only screen and (min-width: 490px) {
+        width: 80%;
+    }
+
+    @media only screen and (min-width: 740px) {
+        width: 55%;
+    }
+        
+}
+
+.AutocompleteSuggestions__ListItem{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
