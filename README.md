@@ -25,7 +25,7 @@ The folder structure is listed below:
   
 ### Observation
 
-Unfortunately, Yahoo has recently terminated its Yahoo Weather API and YQL services. Alternative weather/location APIs arrangements will be explored in due course. 
+Unfortunately, Yahoo has recently terminated its Yahoo Weather API and YQL services. Alternative weather/location API arrangements will be explored in due course. 
 
 ## Built With
 
